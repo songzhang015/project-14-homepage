@@ -32,6 +32,7 @@ body::before {
     transform: skewY(-10deg);
 }
 
+
 header {
     display: flex;
     justify-content: center;
@@ -74,7 +75,7 @@ header {
     display: flex;
     gap: 1rem;
     justify-content: end;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .icon {
@@ -87,6 +88,7 @@ header {
 .icon:hover {
     transform: scale(1.1);
 }
+
 
 .projects-container {
     display: grid;
@@ -113,6 +115,17 @@ header {
     padding: 1rem;
 }
 
+.project-details > div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .project-desc {
     font-size: 1rem;
+}
+
+
+.footer {
+
 }
